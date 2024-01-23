@@ -1,3 +1,7 @@
+//Hoisting 
+divide(8,4)
+console.log(xy)
+
 //Basics Data types
 //Number Data Type
 
@@ -149,6 +153,57 @@ function divide(a, b) {
   console.log(divide(10, 2));  
   console.log(divide(8, 0)); 
   
+
+// Type casting 
+// Implicit type casting
+let numString = "123"; 
+let num = 5;
+
+let result = numString + num; 
+console.log(result);
+
+// Explicit type casting
+// String to Number
+let strNumber = "456";
+let convertedNumber = parseInt(strNumber);
+
+console.log(convertedNumber); 
+
+// Number to String
+
+let number = 789;
+let convertedString = number.toString();
+
+console.log(convertedString); 
+
+// Boolean to Number
+
+let boolValue = true;
+let convertedNumberFromBoolean = Number(boolValue);
+
+console.log(convertedNumberFromBoolean); 
+
+// Number to Bool
+
+let nonZeroNumber = 42;
+let zeroNumber = 0;
+
+let booleanFromNonZero = Boolean(nonZeroNumber);
+let booleanFromZero = Boolean(zeroNumber);
+
+console.log(booleanFromNonZero); 
+console.log(booleanFromZero);    
+
+// Bool to String
+
+let truthyString = "true";
+let falsyString = "false";
+
+let booleanFromTruthyString = Boolean(truthyString);
+let booleanFromFalsyString = Boolean(falsyString);
+
+console.log(booleanFromTruthyString); 
+console.log(booleanFromFalsyString);  
 
 
 
